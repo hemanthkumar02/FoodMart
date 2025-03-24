@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
-import { useCounterStore } from "../stores/counterStore";
+import { useCounterStore } from "@/stores/counterStore";
 
 export default defineComponent({
   setup() {
