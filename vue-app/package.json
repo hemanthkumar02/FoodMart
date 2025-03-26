@@ -5,18 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:development": "vite dev --mode development",
+    "dev:production": "vite dev --mode production",
     "build": "vue-tsc -b && vite build",
+    "build:development": "vite build --mode development",
+    "build:production": "vite build --mode production",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.8.4",
-    "pinia": "^3.0.1",
     "sass": "^1.86.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/devtools": "^7.7.2",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.7.2",

@@ -1,10 +1,10 @@
 import { createApp } from "vue";
-import App from "./App.vue"; // Import your main App component
+import App from "./App.vue";
 import router from "./router/index";
-import { createPinia } from "pinia";
 import "./assets/styles/main.scss";
+import store from "./stores/store"; // ✅ Correct Vuex import
 
-const app = createApp(App); // Mount the App component
-app.use(createPinia());
+const app = createApp(App);
+app.use(store); // ✅ Register Vuex
 app.use(router);
 app.mount("#app");
