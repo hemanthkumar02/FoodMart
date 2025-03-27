@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "FOODMART"
+    // Add any other custom words you want cSpell to recognize here
+  ],
+  "ignoreWords": [],
+  "dictionaries": [],
+  "dictionaryDefinitions": [],
+  "ignorePaths": []
+}

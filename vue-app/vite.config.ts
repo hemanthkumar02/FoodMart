@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
       port: 3030,
     },
     build: {
-      sourcemap: env.VITE_APP_ENV === "production" ? false : true,
+      sourcemap: env.FOODMART_APP_ENV === "production" ? false : true,
     },
     resolve: {
       alias: {
