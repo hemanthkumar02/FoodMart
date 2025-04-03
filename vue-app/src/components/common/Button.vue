@@ -1,17 +1,17 @@
-<script setup lang="ts">
-defineProps<{ label: string }>();
-</script>
-
 <template>
-  <button class="btn">{{ label }}</button>
+  <div>
+    <button v-bind:type="buttonType" :class="buttonClass">
+      {{ buttonText }}
+    </button>
+  </div>
 </template>
 
-<style scoped>
-.btn {
-  padding: 10px;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
+<script>
+export default {
+  name: "Button",
+  props: ['buttonType', 'buttonClass', 'buttonText']
+};
+</script>
+
+<style>
 </style>

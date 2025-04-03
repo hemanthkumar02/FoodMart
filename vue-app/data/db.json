@@ -1,0 +1,170 @@
+{
+  "categories": [
+    { "id": 1, "name": "Groceries" },
+    { "id": 2, "name": "Drinks" },
+    { "id": 3, "name": "Chocolates" }
+  ],
+
+  "navItems": [
+    {
+      "id": 1,
+      "name": "Women",
+      "link": "#",
+      "isDropdown": false,
+      "dropdownItems": null
+    },
+    {
+      "id": 2,
+      "name": "Men",
+      "link": "#",
+      "isDropdown": false,
+      "dropdownItems": null
+    },
+    {
+      "id": 3,
+      "name": "Kids",
+      "link": "#",
+      "isDropdown": false,
+      "dropdownItems": null
+    },
+    {
+      "id": 4,
+      "name": "Accessories",
+      "link": "#",
+      "isDropdown": false,
+      "dropdownItems": null
+    },
+    {
+      "id": 5,
+      "name": "Pages",
+      "link": "#",
+      "isDropdown": true,
+      "dropdownItems": [
+        { "id": 101, "name": "About Us", "link": "/about" },
+        { "id": 102, "name": "Shop", "link": "index.html" },
+        { "id": 103, "name": "Cart", "link": "index.html" },
+        { "id": 104, "name": "Checkout", "link": "index.html" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Blog",
+      "link": "#Blog",
+      "isDropdown": false,
+      "dropdownItems": null
+    }
+  ],
+
+  "bannerCards": [
+    {
+      "id": 2,
+      "title": "Fruits & Vegitables",
+      "content": "Shop Collection",
+      "discountSale": "20% Off",
+      "imageUrl": "/src/assets/images/ad-image-1.png"
+    },
+    {
+      "id": 3,
+      "title": "Baked Products",
+      "content": "Shop Collection",
+      "discountSale": "15% Off",
+      "imageUrl": "/src/assets/images/ad-image-2.png"
+    }
+  ],
+
+  "slides": [
+    {
+      "id": 101,
+      "title": "Fresh Smoothie & Summer Juice",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
+      "button": "Shop Now",
+      "imageUrl": "/src/assets/images/product-thumb-1.png"
+    },
+    {
+      "id": 102,
+      "title": "Fresh Smoothie & Summer Juice",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
+      "button": "Shop Collection",
+      "imageUrl": "/src/assets/images/product-thumb-1.png"
+    },
+    {
+      "id": 103,
+      "title": "Heinz Tomato Ketchup",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
+      "button": "Shop Collection",
+      "imageUrl": "/src/assets/images/product-thumb-2.png"
+    }
+  ],
+
+  "icons": [
+    {
+      "id": 1,
+      "title": "Facebook",
+      "link": "#",
+      "componentName": "FacebookIcon"
+    },
+    {
+      "id": 2,
+      "title": "Twitter",
+      "link": "#",
+      "componentName": "TwitterIcon"
+    },
+    {
+      "id": 3,
+      "title": "Youtube",
+      "link": "#",
+      "componentName": "YoutubeIcon"
+    },
+    {
+      "id": 4,
+      "title": "Instagram",
+      "link": "#",
+      "componentName": "InstagramIcon"
+    },
+    { "id": 5, "title": "Amazon", "link": "#", "componentName": "AmazonIcon" }
+  ],
+
+  "footerColumn-1": [
+    {
+      "id": 1,
+      "title": "Ultras",
+      "navItems": [
+        { "id": 1, "name": "About us", "link": "#" },
+        { "id": 2, "name": "Conditions", "link": "#" },
+        { "id": 3, "name": "Our Journals", "link": "#" },
+        { "id": 4, "name": "Careers", "link": "#" },
+        { "id": 5, "name": "Affiliate Programme", "link": "#" },
+        { "id": 6, "name": "Ultras Press", "link": "#" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Customer Service",
+      "navItems": [
+        { "id": 1, "name": "FAQ", "link": "#" },
+        { "id": 2, "name": "Contact", "link": "#" },
+        { "id": 3, "name": "Privacy Policy", "link": "#" },
+        { "id": 4, "name": "Returns & Refunds", "link": "#" },
+        { "id": 5, "name": "Cookie Guidelines", "link": "#" },
+        { "id": 6, "name": "Delivery Information", "link": "#" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Customer Service",
+      "navItems": [
+        { "id": 1, "name": "FAQ", "link": "#" },
+        { "id": 2, "name": "Contact", "link": "#" },
+        { "id": 3, "name": "Privacy Policy", "link": "#" },
+        { "id": 4, "name": "Returns & Refunds", "link": "#" },
+        { "id": 5, "name": "Cookie Guidelines", "link": "#" },
+        { "id": 6, "name": "Delivery Information", "link": "#" }
+      ]
+    }
+  ],
+
+  "newsLetter": {
+    "title": "Subscribe Us",
+    "content": "Subscribe to our newsletter to get updates about our grand offers."
+  }
+}
