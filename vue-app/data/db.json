@@ -1,5 +1,5 @@
 {
-  "categories": [
+  "dropdownCategories": [
     { "id": 1, "name": "Groceries" },
     { "id": 2, "name": "Drinks" },
     { "id": 3, "name": "Chocolates" }
@@ -166,5 +166,210 @@
   "newsLetter": {
     "title": "Subscribe Us",
     "content": "Subscribe to our newsletter to get updates about our grand offers."
-  }
+  },
+
+  "categories": [
+    {
+      "id": 1,
+      "title": "Fruits & Veges",
+      "image": "/src/assets/images/icon-vegetables-broccoli.png"
+    },
+    {
+      "id": 2,
+      "title": "Breads & Sweets",
+      "image": "/src/assets/images/icon-bread-baguette.png"
+    },
+    {
+      "id": 3,
+      "title": "Soft Drinks",
+      "image": "/src/assets/images/icon-soft-drinks-bottle.png"
+    },
+    {
+      "id": 4,
+      "title": "Wine & Spirits",
+      "image": "/src/assets/images/icon-wine-glass-bottle.png"
+    },
+    {
+      "id": 5,
+      "title": "Meat & Poultry",
+      "image": "/src/assets/images/icon-animal-products-drumsticks.png"
+    },
+    {
+      "id": 6,
+      "title": "Bakery",
+      "image": "/src/assets/images/icon-bread-herb-flour.png"
+    },
+    {
+      "id": 7,
+      "title": "Fruits & Veges",
+      "image": "/src/assets/images/icon-vegetables-broccoli.png"
+    },
+    {
+      "id": 8,
+      "title": "Breads & Sweets",
+      "image": "/src/assets/images/icon-bread-baguette.png"
+    },
+    {
+      "id": 9,
+      "title": "Soft Drinks",
+      "image": "/src/assets/images/icon-soft-drinks-bottle.png"
+    },
+    {
+      "id": 10,
+      "title": "Wine & Spirits",
+      "image": "/src/assets/images/icon-wine-glass-bottle.png"
+    },
+    {
+      "id": 11,
+      "title": "Meat & Poultry",
+      "image": "/src/assets/images/icon-animal-products-drumsticks.png"
+    },
+    {
+      "id": 12,
+      "title": "Bakery",
+      "image": "/src/assets/images/icon-bread-herb-flour.png"
+    }
+  ],
+
+  "newProducts": [
+    {
+      "id": 1,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-11.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-12.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-13.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-14.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-11.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-12.jpg"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -30,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -30,
+      "image": "/src/assets/images/thumb-biscuits.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -30,
+      "image": "/src/assets/images/thumb-cucumber.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-milk.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-biscuits.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-cucumber.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-milk.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "title":"Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-biscuits.png",
+      "category": "Juices",
+      "quantity": 1
+    }
+  ]
 }
