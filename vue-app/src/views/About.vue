@@ -1,8 +1,15 @@
 <template>
-    <nav>
-      <router-link to="/">Home</router-link>
-    </nav>
-  <div>
-    <h1>About Page</h1>
-  </div>
+  <AboutUs />
 </template>
+
+<script>
+import AboutUs from '../components/common/AboutUs.vue';
+
+export default {
+  name: 'About',
+  components: {
+    AboutUs,
+  }
+}
+</script>
+

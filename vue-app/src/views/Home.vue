@@ -11,6 +11,7 @@
     :classForNext="viewProducts.classForNext"
     :products="products"
   />
+  <ContactUs />
   <ViewProducts 
     :title="justArrived.title"
     :content="justArrived.content"
@@ -18,6 +19,7 @@
     :classForNext="justArrived.classForNext"
     :products="products"
   />
+  <Blog />
   <AboutUs />
   <RecommendedProducts/>
 </template>
@@ -31,6 +33,8 @@ import Card from "../components/common/Card.vue";
 import ViewProducts from "../components/ProductComponents/ViewProducts.vue";
 import RecommendedProducts from '../components/ProductComponents/RecommendedProducts.vue';
 import AboutUs from '../components/common/AboutUs.vue';
+import Blog from '../components/blogs/Blog.vue'
+import ContactUs from '../components/contactus/ContactUs.vue'
 
 export default {
   name: "Home",
@@ -41,8 +45,10 @@ export default {
     TrendingProducts,
     Card,
     ViewProducts,
+    Blog,
     AboutUs,
     RecommendedProducts,
+    ContactUs,
   },
   data() {
     return {

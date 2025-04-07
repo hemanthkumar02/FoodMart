@@ -1,10 +1,18 @@
 {
   "dropdownCategories": [
-    { "id": 1, "name": "Groceries" },
-    { "id": 2, "name": "Drinks" },
-    { "id": 3, "name": "Chocolates" }
+    {
+      "id": 1,
+      "name": "Groceries"
+    },
+    {
+      "id": 2,
+      "name": "Drinks"
+    },
+    {
+      "id": 3,
+      "name": "Chocolates"
+    }
   ],
-
   "navItems": [
     {
       "id": 1,
@@ -40,21 +48,36 @@
       "link": "#",
       "isDropdown": true,
       "dropdownItems": [
-        { "id": 101, "name": "About Us", "link": "/about" },
-        { "id": 102, "name": "Shop", "link": "index.html" },
-        { "id": 103, "name": "Cart", "link": "index.html" },
-        { "id": 104, "name": "Checkout", "link": "index.html" }
+        {
+          "id": 101,
+          "name": "About Us",
+          "link": "/about"
+        },
+        {
+          "id": 102,
+          "name": "Shop",
+          "link": "index.html"
+        },
+        {
+          "id": 103,
+          "name": "Cart",
+          "link": "index.html"
+        },
+        {
+          "id": 104,
+          "name": "Checkout",
+          "link": "index.html"
+        }
       ]
     },
     {
       "id": 6,
       "name": "Blog",
-      "link": "#Blog",
+      "link": "/blogs",
       "isDropdown": false,
       "dropdownItems": null
     }
   ],
-
   "bannerCards": [
     {
       "id": 2,
@@ -71,7 +94,6 @@
       "imageUrl": "/src/assets/images/ad-image-2.png"
     }
   ],
-
   "slides": [
     {
       "id": 101,
@@ -95,7 +117,6 @@
       "imageUrl": "/src/assets/images/product-thumb-2.png"
     }
   ],
-
   "icons": [
     {
       "id": 1,
@@ -121,53 +142,127 @@
       "link": "#",
       "componentName": "InstagramIcon"
     },
-    { "id": 5, "title": "Amazon", "link": "#", "componentName": "AmazonIcon" }
+    {
+      "id": 5,
+      "title": "Amazon",
+      "link": "#",
+      "componentName": "AmazonIcon"
+    }
   ],
-
   "footerColumn-1": [
     {
       "id": 1,
       "title": "Ultras",
       "navItems": [
-        { "id": 1, "name": "About us", "link": "#" },
-        { "id": 2, "name": "Conditions", "link": "#" },
-        { "id": 3, "name": "Our Journals", "link": "#" },
-        { "id": 4, "name": "Careers", "link": "#" },
-        { "id": 5, "name": "Affiliate Programme", "link": "#" },
-        { "id": 6, "name": "Ultras Press", "link": "#" }
+        {
+          "id": 1,
+          "name": "About us",
+          "link": "#"
+        },
+        {
+          "id": 2,
+          "name": "Conditions",
+          "link": "#"
+        },
+        {
+          "id": 3,
+          "name": "Our Journals",
+          "link": "#"
+        },
+        {
+          "id": 4,
+          "name": "Careers",
+          "link": "#"
+        },
+        {
+          "id": 5,
+          "name": "Affiliate Programme",
+          "link": "#"
+        },
+        {
+          "id": 6,
+          "name": "Ultras Press",
+          "link": "#"
+        }
       ]
     },
     {
       "id": 2,
       "title": "Customer Service",
       "navItems": [
-        { "id": 1, "name": "FAQ", "link": "#" },
-        { "id": 2, "name": "Contact", "link": "#" },
-        { "id": 3, "name": "Privacy Policy", "link": "#" },
-        { "id": 4, "name": "Returns & Refunds", "link": "#" },
-        { "id": 5, "name": "Cookie Guidelines", "link": "#" },
-        { "id": 6, "name": "Delivery Information", "link": "#" }
+        {
+          "id": 1,
+          "name": "FAQ",
+          "link": "#"
+        },
+        {
+          "id": 2,
+          "name": "Contact",
+          "link": "#"
+        },
+        {
+          "id": 3,
+          "name": "Privacy Policy",
+          "link": "#"
+        },
+        {
+          "id": 4,
+          "name": "Returns & Refunds",
+          "link": "#"
+        },
+        {
+          "id": 5,
+          "name": "Cookie Guidelines",
+          "link": "#"
+        },
+        {
+          "id": 6,
+          "name": "Delivery Information",
+          "link": "#"
+        }
       ]
     },
     {
       "id": 3,
       "title": "Customer Service",
       "navItems": [
-        { "id": 1, "name": "FAQ", "link": "#" },
-        { "id": 2, "name": "Contact", "link": "#" },
-        { "id": 3, "name": "Privacy Policy", "link": "#" },
-        { "id": 4, "name": "Returns & Refunds", "link": "#" },
-        { "id": 5, "name": "Cookie Guidelines", "link": "#" },
-        { "id": 6, "name": "Delivery Information", "link": "#" }
+        {
+          "id": 1,
+          "name": "FAQ",
+          "link": "#"
+        },
+        {
+          "id": 2,
+          "name": "Contact",
+          "link": "#"
+        },
+        {
+          "id": 3,
+          "name": "Privacy Policy",
+          "link": "#"
+        },
+        {
+          "id": 4,
+          "name": "Returns & Refunds",
+          "link": "#"
+        },
+        {
+          "id": 5,
+          "name": "Cookie Guidelines",
+          "link": "#"
+        },
+        {
+          "id": 6,
+          "name": "Delivery Information",
+          "link": "#"
+        }
       ]
     }
   ],
-
   "newsLetter": {
     "title": "Subscribe Us",
     "content": "Subscribe to our newsletter to get updates about our grand offers."
   },
-
   "categories": [
     {
       "id": 1,
@@ -230,7 +325,6 @@
       "image": "/src/assets/images/icon-bread-herb-flour.png"
     }
   ],
-
   "newProducts": [
     {
       "id": 1,
@@ -269,7 +363,6 @@
       "image": "/src/assets/images/product-thumb-12.jpg"
     }
   ],
-
   "products": [
     {
       "id": 1,
@@ -372,7 +465,6 @@
       "quantity": 1
     }
   ],
-
   "cards": [
     {
       "id": 1,
@@ -391,7 +483,6 @@
       "backgroundImage": "/src/assets/images/ad-image-4.png"
     }
   ],
-
   "bestSellingProducts": [
     {
       "id": 1,
@@ -474,7 +565,6 @@
       "quantity": 1
     }
   ],
-
   "aboutUs": [
     {
       "id": 1,
@@ -485,7 +575,6 @@
       "appStore": "/src/assets/images/app-store.jpg"
     }
   ],
-
   "recommendedProducts": [
     {
       "id": 1,
@@ -560,7 +649,6 @@
       "product": "Chicken meatballs"
     }
   ],
-
   "blogs": [
     {
       "id": 1,
@@ -585,6 +673,69 @@
       "date": "28 Aug 2021",
       "categories": "inspiration",
       "image": "/src/assets/images/post-thumb-3.jpg"
+    }
+  ],
+  "contactData": {
+    "id": 101,
+    "title": "Get <span class='text-primary'>25% Discount</span> on your first purchase",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet, metus, sit massa posuere maecenas. At tellus ut nunc amet vel egestas.",
+    "image": "/src/assets/images/bg-leaves-img-pattern.png",
+    "formFields": [
+      {
+        "id": 1,
+        "label": "Name",
+        "type": "text",
+        "class": "form-control form-control-lg",
+        "name": "name",
+        "placeHolder": "Name"
+      },
+      {
+        "id": 2,
+        "label": "Email",
+        "type": "email",
+        "class": "form-control form-control-lg",
+        "name": "email",
+        "placeHolder": "abc@mail.com"
+      },
+      {
+        "id": 3,
+        "label": "Subscribe to the newsletter",
+        "type": "checkbox",
+        "class": "form-check-input",
+        "name": "subscribe",
+        "placeHolder": ""
+      }
+    ],
+    "buttonType": {
+      "type": "submit",
+      "class": "btn btn-dark btn-lg",
+      "text": "Submit"
+    }
+  },
+  "users": [
+    {
+      "id": 1254803512272303,
+      "subscribe": false,
+      "name": "Demo3",
+      "email": "demo@example.com"
+    },
+    {
+      "id": 7893214281364539,
+      "subscribe": true,
+      "name": "John Wick",
+      "email": "johnwick24@gmail.com"
+    },
+    {
+      "id": 1725980212173413,
+      "subscribe": true,
+      "name": "Demo4",
+      "email": "demo2@gmail.com"
+    },
+    {
+      "id": 3375954242370560,
+      "subscribe": true,
+      "name": "Stone Diamond Ring",
+      "email": "demo@example.com"
     }
   ]
 }
