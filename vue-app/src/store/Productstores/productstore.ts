@@ -26,18 +26,27 @@ interface Product {
     quantity: number
 }
 
+interface otherProducts {
+    id: number;
+    product: string;
+}
+
 // Define the type of state
 interface ProductAndTypes {
     categories: Category[]
     newProducts: NewProduct[]
-    products: Product[]
+    products: Product[],
+    bestSellingProducts: Product[],
+    recommendProducts: otherProducts[]
 }
 
 // Initial state
 const state: ProductAndTypes = {
     categories: [],
     newProducts: [],
-    products: []
+    products: [],
+    bestSellingProducts: [],
+    recommendProducts: []
 }
 
 // Define mutaitons
@@ -52,6 +61,14 @@ const mutations = {
 
     SET_PRODUCTS(state: ProductAndTypes, payload: ProductAndTypes) {
         state.products = payload.products
+    },
+
+    SET_BESTPRODUCTS(state: ProductAndTypes, payload: ProductAndTypes) {
+        state.bestSellingProducts = payload.bestSellingProducts
+    },
+
+    SET_OTHERPRODUCTS(state: ProductAndTypes, payload: ProductAndTypes) {
+        state.recommendProducts = payload.recommendProducts
     }
 }
 
@@ -85,6 +102,28 @@ const actions = {
         } catch (error) {
             console.error('Error fetching Products', error)
         }
+    },
+
+    async fetchBestSellingProducts({ commit }: any) {
+        try {
+            await axios.get('http://localhost:3000/bestSellingProducts').then((res) => {
+                console.log(res.data)
+                commit('SET_BESTPRODUCTS', { bestSellingProducts: res.data });
+            })
+        } catch (error) {
+            console.error('Error fetching best selling Products', error)
+        }
+    },
+
+    async fetchOtherProducts({ commit }: any) {
+        try {
+            await axios.get('http://localhost:3000/recommendedProducts').then((res) => {
+                console.log('rp: ', res.data)
+                commit('SET_OTHERPRODUCTS', { recommendProducts: res.data})
+            })
+        } catch (error) {
+            console.error('Error fetching in recommended products', error)
+        }
     }
 }
 
@@ -95,6 +134,8 @@ const getters = {
     getProducts: (state: ProductAndTypes) => state.products,
     getFruitProducts: (state: ProductAndTypes) => state.products.filter((product: Product) => product.category === 'Fruits & Veges'),
     getJuiceProducts: (state: ProductAndTypes) => state.products.filter((product: Product) => product.category === 'Juices'),
+    getBestSellingProducts: (state: ProductAndTypes) => state.bestSellingProducts,
+    getRecommendedProducts: (state: ProductAndTypes) => state.recommendProducts
 }
 
 const productsStore: Module<ProductAndTypes, any> = {

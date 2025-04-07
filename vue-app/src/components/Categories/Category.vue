@@ -78,7 +78,6 @@ export default {
   },
   computed: {
     categories() {
-      console.log(this.$store.state.productsStore.categories);
       return this.$store.state.productsStore.categories;
     },
   },

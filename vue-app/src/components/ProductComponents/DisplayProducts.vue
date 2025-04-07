@@ -1,5 +1,5 @@
 <template>
-  <div class="col" v-for="product in products" :key="product.id">
+  <div class="col">
     <div class="product-item">
       <span class="badge bg-success position-absolute m-3" v-if="product.discount != 0">{{ product.discount }}%</span>
       <a href="#" class="btn-wishlist"
@@ -59,7 +59,7 @@
 
 export default {
     name: 'Products',
-    props: ['products'],
+    props: ['product'],
     data() {
         return {
             quantity: 1
