@@ -1,5 +1,5 @@
 {
-  "categories": [
+  "dropdownCategories": [
     { "id": 1, "name": "Groceries" },
     { "id": 2, "name": "Drinks" },
     { "id": 3, "name": "Chocolates" }
@@ -166,5 +166,425 @@
   "newsLetter": {
     "title": "Subscribe Us",
     "content": "Subscribe to our newsletter to get updates about our grand offers."
-  }
+  },
+
+  "categories": [
+    {
+      "id": 1,
+      "title": "Fruits & Veges",
+      "image": "/src/assets/images/icon-vegetables-broccoli.png"
+    },
+    {
+      "id": 2,
+      "title": "Breads & Sweets",
+      "image": "/src/assets/images/icon-bread-baguette.png"
+    },
+    {
+      "id": 3,
+      "title": "Soft Drinks",
+      "image": "/src/assets/images/icon-soft-drinks-bottle.png"
+    },
+    {
+      "id": 4,
+      "title": "Wine & Spirits",
+      "image": "/src/assets/images/icon-wine-glass-bottle.png"
+    },
+    {
+      "id": 5,
+      "title": "Meat & Poultry",
+      "image": "/src/assets/images/icon-animal-products-drumsticks.png"
+    },
+    {
+      "id": 6,
+      "title": "Bakery",
+      "image": "/src/assets/images/icon-bread-herb-flour.png"
+    },
+    {
+      "id": 7,
+      "title": "Fruits & Veges",
+      "image": "/src/assets/images/icon-vegetables-broccoli.png"
+    },
+    {
+      "id": 8,
+      "title": "Breads & Sweets",
+      "image": "/src/assets/images/icon-bread-baguette.png"
+    },
+    {
+      "id": 9,
+      "title": "Soft Drinks",
+      "image": "/src/assets/images/icon-soft-drinks-bottle.png"
+    },
+    {
+      "id": 10,
+      "title": "Wine & Spirits",
+      "image": "/src/assets/images/icon-wine-glass-bottle.png"
+    },
+    {
+      "id": 11,
+      "title": "Meat & Poultry",
+      "image": "/src/assets/images/icon-animal-products-drumsticks.png"
+    },
+    {
+      "id": 12,
+      "title": "Bakery",
+      "image": "/src/assets/images/icon-bread-herb-flour.png"
+    }
+  ],
+
+  "newProducts": [
+    {
+      "id": 1,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-11.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-12.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-13.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-14.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-11.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Honey best nectar you wish to get",
+      "subtitle": "Amber Jar",
+      "image": "/src/assets/images/product-thumb-12.jpg"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -30,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -30,
+      "image": "/src/assets/images/thumb-biscuits.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -30,
+      "image": "/src/assets/images/thumb-cucumber.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-milk.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-biscuits.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-cucumber.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-milk.png",
+      "category": "Juices",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-biscuits.png",
+      "category": "Juices",
+      "quantity": 1
+    }
+  ],
+
+  "cards": [
+    {
+      "id": 1,
+      "title": "Luxa Dark Chocolate",
+      "content": "Very tasty & creamy vanilla flavour creamy muffins.",
+      "buttonText": "SHOW NOW",
+      "discountText": "Upto 25% Off",
+      "backgroundImage": "/src/assets/images/ad-image-3.png"
+    },
+    {
+      "id": 2,
+      "title": "Creamy Muffins",
+      "content": "Very tasty & creamy vanilla flavour creamy muffins.",
+      "buttonText": "SHOW NOW",
+      "discountText": "Upto 25% Off",
+      "backgroundImage": "/src/assets/images/ad-image-4.png"
+    }
+  ],
+
+  "bestSellingProducts": [
+    {
+      "id": 1,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -15,
+      "image": "/src/assets/images/thumb-tomatoes.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": -15,
+      "image": "/src/assets/images/thumb-tomatoketchup.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-tomatoes.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-tomatoketchup.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "title": "Sunstar Fresh Melon Juice",
+      "price": 18,
+      "rating": 4.5,
+      "discount": 0,
+      "image": "/src/assets/images/thumb-bananas.png",
+      "category": "Fruits & Veges",
+      "quantity": 1
+    }
+  ],
+
+  "aboutUs": [
+    {
+      "id": 1,
+      "title": "Shop faster with foodmart App",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis. Amet blandit tortor praesent ante vitae. A, enim pretiummi senectus magna. Sagittis sed ptibus liberolectus non et psryroin.",
+      "image": "/src/assets/images/phone.png",
+      "googlePlay": "/src/assets/images/google-play.jpg",
+      "appStore": "/src/assets/images/app-store.jpg"
+    }
+  ],
+
+  "recommendedProducts": [
+    {
+      "id": 1,
+      "product": "Blue diamon almonds"
+    },
+    {
+      "id": 2,
+      "product": "Angie’s Boomchickapop Corn"
+    },
+    {
+      "id": 3,
+      "product": "Salty kettle Corn"
+    },
+    {
+      "id": 4,
+      "product": "Chobani Greek Yogurt"
+    },
+    {
+      "id": 5,
+      "product": "Sweet Vanilla Yogurt"
+    },
+    {
+      "id": 6,
+      "product": "Foster Farms Takeout Crispy wings"
+    },
+    {
+      "id": 7,
+      "product": "Warrior Blend Organic"
+    },
+    {
+      "id": 8,
+      "product": "Chao Cheese Creamy"
+    },
+    {
+      "id": 9,
+      "product": "Chicken meatballs"
+    },
+    {
+      "id": 10,
+      "product": "Blue diamon almonds"
+    },
+    {
+      "id": 11,
+      "product": "Angie’s Boomchickapop Corn"
+    },
+    {
+      "id": 12,
+      "product": "Salty kettle Corn"
+    },
+    {
+      "id": 13,
+      "product": "Chobani Greek Yogurt"
+    },
+    {
+      "id": 14,
+      "product": "Sweet Vanilla Yogurt"
+    },
+    {
+      "id": 15,
+      "product": "Foster Farms Takeout Crispy wings"
+    },
+    {
+      "id": 16,
+      "product": "Warrior Blend Organic"
+    },
+    {
+      "id": 17,
+      "product": "Chao Cheese Creamy"
+    },
+    {
+      "id": 18,
+      "product": "Chicken meatballs"
+    }
+  ],
+
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Top 10 casual look ideas to dress up your kids",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
+      "date": "22 Aug 2021",
+      "categories": "tips & tricks",
+      "image": "/src/assets/images/post-thumb-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Latest trends of wearing street wears supremely",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
+      "date": "25 Aug 2021",
+      "categories": "trending",
+      "image": "/src/assets/images/post-thumb-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "10 Different Types of comfortable clothes ideas for women",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
+      "date": "28 Aug 2021",
+      "categories": "inspiration",
+      "image": "/src/assets/images/post-thumb-3.jpg"
+    }
+  ]
 }

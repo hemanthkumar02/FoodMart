@@ -112,13 +112,10 @@ export default {
     },
 
     columns() {
-      console.log('a',this.$store.state.footerStore.footerColumns)
       return this.$store.state.footerStore.footerColumns;
     },
 
     newsLetter() {
-      console.log('demo', this.$store.state.footerStore.newsLetter);
-      
       return this.$store.state.footerStore.newsLetter
     }
   }

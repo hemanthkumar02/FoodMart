@@ -28,7 +28,7 @@ const mutations = {
 const actions = {
     async fetchCategories({commit}: any) {
         try {
-            await axios.get('http://localhost:3000/categories').then((res) => {
+            await axios.get('http://localhost:3000/dropdownCategories').then((res) => {
                 commit('SET_CATEGORIES', { categories: res.data})
             })
         } catch (error) {

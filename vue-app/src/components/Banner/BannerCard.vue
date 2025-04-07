@@ -1,6 +1,6 @@
 <template>
     <div v-for="card in cards" :key="card.id"
-    :class="[card.id === 2 ? `banner-ad bg-success-subtle block-${card.id}` : `banner-ad bg-danger block-${card.id}`]"
+    :class="[card.id == 2 ? `banner-ad bg-success-subtle block-${card.id}` : `banner-ad bg-danger block-${card.id}`]"
     :style="{
       background: `url(${card.imageUrl}) no-repeat`,
       backgroundPosition: 'right bottom',
