@@ -1,49 +1,49 @@
 {
   "dropdownCategories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Groceries"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Drinks"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Chocolates"
     }
   ],
   "navItems": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Women",
       "link": "#",
       "isDropdown": false,
       "dropdownItems": null
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Men",
       "link": "#",
       "isDropdown": false,
       "dropdownItems": null
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Kids",
       "link": "#",
       "isDropdown": false,
       "dropdownItems": null
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Accessories",
       "link": "#",
       "isDropdown": false,
       "dropdownItems": null
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Pages",
       "link": "#",
       "isDropdown": true,
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Blog",
       "link": "/blogs",
       "isDropdown": false,
@@ -80,14 +80,14 @@
   ],
   "bannerCards": [
     {
-      "id": 2,
+      "id": "2",
       "title": "Fruits & Vegitables",
       "content": "Shop Collection",
       "discountSale": "20% Off",
       "imageUrl": "/src/assets/images/ad-image-1.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Baked Products",
       "content": "Shop Collection",
       "discountSale": "15% Off",
@@ -96,21 +96,21 @@
   ],
   "slides": [
     {
-      "id": 101,
+      "id": "101",
       "title": "Fresh Smoothie & Summer Juice",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
       "button": "Shop Now",
       "imageUrl": "/src/assets/images/product-thumb-1.png"
     },
     {
-      "id": 102,
+      "id": "102",
       "title": "Fresh Smoothie & Summer Juice",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
       "button": "Shop Collection",
       "imageUrl": "/src/assets/images/product-thumb-1.png"
     },
     {
-      "id": 103,
+      "id": "103",
       "title": "Heinz Tomato Ketchup",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
       "button": "Shop Collection",
@@ -119,31 +119,31 @@
   ],
   "icons": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Facebook",
       "link": "#",
       "componentName": "FacebookIcon"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Twitter",
       "link": "#",
       "componentName": "TwitterIcon"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Youtube",
       "link": "#",
       "componentName": "YoutubeIcon"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Instagram",
       "link": "#",
       "componentName": "InstagramIcon"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Amazon",
       "link": "#",
       "componentName": "AmazonIcon"
@@ -151,7 +151,7 @@
   ],
   "footerColumn-1": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Ultras",
       "navItems": [
         {
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Customer Service",
       "navItems": [
         {
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Customer Service",
       "navItems": [
         {
@@ -265,99 +265,99 @@
   },
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Fruits & Veges",
       "image": "/src/assets/images/icon-vegetables-broccoli.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Breads & Sweets",
       "image": "/src/assets/images/icon-bread-baguette.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Soft Drinks",
       "image": "/src/assets/images/icon-soft-drinks-bottle.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Wine & Spirits",
       "image": "/src/assets/images/icon-wine-glass-bottle.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Meat & Poultry",
       "image": "/src/assets/images/icon-animal-products-drumsticks.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Bakery",
       "image": "/src/assets/images/icon-bread-herb-flour.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Fruits & Veges",
       "image": "/src/assets/images/icon-vegetables-broccoli.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Breads & Sweets",
       "image": "/src/assets/images/icon-bread-baguette.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Soft Drinks",
       "image": "/src/assets/images/icon-soft-drinks-bottle.png"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Wine & Spirits",
       "image": "/src/assets/images/icon-wine-glass-bottle.png"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Meat & Poultry",
       "image": "/src/assets/images/icon-animal-products-drumsticks.png"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Bakery",
       "image": "/src/assets/images/icon-bread-herb-flour.png"
     }
   ],
   "newProducts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Honey best nectar you wish to get",
       "subtitle": "Amber Jar",
       "image": "/src/assets/images/product-thumb-11.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Honey best nectar you wish to get",
       "subtitle": "Amber Jar",
       "image": "/src/assets/images/product-thumb-12.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Honey best nectar you wish to get",
       "subtitle": "Amber Jar",
       "image": "/src/assets/images/product-thumb-13.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Honey best nectar you wish to get",
       "subtitle": "Amber Jar",
       "image": "/src/assets/images/product-thumb-14.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Honey best nectar you wish to get",
       "subtitle": "Amber Jar",
       "image": "/src/assets/images/product-thumb-11.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Honey best nectar you wish to get",
       "subtitle": "Amber Jar",
       "image": "/src/assets/images/product-thumb-12.jpg"
@@ -365,7 +365,7 @@
   ],
   "products": [
     {
-      "id": 1,
+      "id": "101",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -375,7 +375,7 @@
       "quantity": 1
     },
     {
-      "id": 2,
+      "id": "102",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -385,7 +385,7 @@
       "quantity": 1
     },
     {
-      "id": 3,
+      "id": "103",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -395,7 +395,7 @@
       "quantity": 1
     },
     {
-      "id": 4,
+      "id": "104",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -405,7 +405,7 @@
       "quantity": 1
     },
     {
-      "id": 5,
+      "id": "105",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -415,7 +415,7 @@
       "quantity": 1
     },
     {
-      "id": 6,
+      "id": "106",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -425,7 +425,7 @@
       "quantity": 1
     },
     {
-      "id": 7,
+      "id": "107",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -435,7 +435,7 @@
       "quantity": 1
     },
     {
-      "id": 8,
+      "id": "108",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -445,7 +445,7 @@
       "quantity": 1
     },
     {
-      "id": 9,
+      "id": "109",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -455,7 +455,7 @@
       "quantity": 1
     },
     {
-      "id": 10,
+      "id": "110",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -467,7 +467,7 @@
   ],
   "cards": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Luxa Dark Chocolate",
       "content": "Very tasty & creamy vanilla flavour creamy muffins.",
       "buttonText": "SHOW NOW",
@@ -475,7 +475,7 @@
       "backgroundImage": "/src/assets/images/ad-image-3.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Creamy Muffins",
       "content": "Very tasty & creamy vanilla flavour creamy muffins.",
       "buttonText": "SHOW NOW",
@@ -485,7 +485,7 @@
   ],
   "bestSellingProducts": [
     {
-      "id": 1,
+      "id": "201",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -495,7 +495,7 @@
       "quantity": 1
     },
     {
-      "id": 2,
+      "id": "202",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -505,7 +505,7 @@
       "quantity": 1
     },
     {
-      "id": 3,
+      "id": "203",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -515,7 +515,7 @@
       "quantity": 1
     },
     {
-      "id": 5,
+      "id": "205",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -525,7 +525,7 @@
       "quantity": 1
     },
     {
-      "id": 6,
+      "id": "206",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -535,7 +535,7 @@
       "quantity": 1
     },
     {
-      "id": 7,
+      "id": "207",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -545,7 +545,7 @@
       "quantity": 1
     },
     {
-      "id": 8,
+      "id": "208",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -555,7 +555,7 @@
       "quantity": 1
     },
     {
-      "id": 9,
+      "id": "209",
       "title": "Sunstar Fresh Melon Juice",
       "price": 18,
       "rating": 4.5,
@@ -567,7 +567,7 @@
   ],
   "aboutUs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Shop faster with foodmart App",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis. Amet blandit tortor praesent ante vitae. A, enim pretiummi senectus magna. Sagittis sed ptibus liberolectus non et psryroin.",
       "image": "/src/assets/images/phone.png",
@@ -577,81 +577,81 @@
   ],
   "recommendedProducts": [
     {
-      "id": 1,
+      "id": "1",
       "product": "Blue diamon almonds"
     },
     {
-      "id": 2,
+      "id": "2",
       "product": "Angie’s Boomchickapop Corn"
     },
     {
-      "id": 3,
+      "id": "3",
       "product": "Salty kettle Corn"
     },
     {
-      "id": 4,
+      "id": "4",
       "product": "Chobani Greek Yogurt"
     },
     {
-      "id": 5,
+      "id": "5",
       "product": "Sweet Vanilla Yogurt"
     },
     {
-      "id": 6,
+      "id": "6",
       "product": "Foster Farms Takeout Crispy wings"
     },
     {
-      "id": 7,
+      "id": "7",
       "product": "Warrior Blend Organic"
     },
     {
-      "id": 8,
+      "id": "8",
       "product": "Chao Cheese Creamy"
     },
     {
-      "id": 9,
+      "id": "9",
       "product": "Chicken meatballs"
     },
     {
-      "id": 10,
+      "id": "10",
       "product": "Blue diamon almonds"
     },
     {
-      "id": 11,
+      "id": "11",
       "product": "Angie’s Boomchickapop Corn"
     },
     {
-      "id": 12,
+      "id": "12",
       "product": "Salty kettle Corn"
     },
     {
-      "id": 13,
+      "id": "13",
       "product": "Chobani Greek Yogurt"
     },
     {
-      "id": 14,
+      "id": "14",
       "product": "Sweet Vanilla Yogurt"
     },
     {
-      "id": 15,
+      "id": "15",
       "product": "Foster Farms Takeout Crispy wings"
     },
     {
-      "id": 16,
+      "id": "16",
       "product": "Warrior Blend Organic"
     },
     {
-      "id": 17,
+      "id": "17",
       "product": "Chao Cheese Creamy"
     },
     {
-      "id": 18,
+      "id": "18",
       "product": "Chicken meatballs"
     }
   ],
   "blogs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Top 10 casual look ideas to dress up your kids",
       "content": "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
       "date": "22 Aug 2021",
@@ -659,7 +659,7 @@
       "image": "/src/assets/images/post-thumb-1.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Latest trends of wearing street wears supremely",
       "content": "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
       "date": "25 Aug 2021",
@@ -667,7 +667,7 @@
       "image": "/src/assets/images/post-thumb-2.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "10 Different Types of comfortable clothes ideas for women",
       "content": "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
       "date": "28 Aug 2021",
@@ -712,30 +712,6 @@
       "text": "Submit"
     }
   },
-  "users": [
-    {
-      "id": 1254803512272303,
-      "subscribe": false,
-      "name": "Demo3",
-      "email": "demo@example.com"
-    },
-    {
-      "id": 7893214281364539,
-      "subscribe": true,
-      "name": "John Wick",
-      "email": "johnwick24@gmail.com"
-    },
-    {
-      "id": 1725980212173413,
-      "subscribe": true,
-      "name": "Demo4",
-      "email": "demo2@gmail.com"
-    },
-    {
-      "id": 3375954242370560,
-      "subscribe": true,
-      "name": "Stone Diamond Ring",
-      "email": "demo@example.com"
-    }
-  ]
+  "users": [],
+  "cart": []
 }
