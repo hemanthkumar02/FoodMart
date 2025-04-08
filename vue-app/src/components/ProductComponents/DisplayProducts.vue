@@ -14,7 +14,7 @@
       <span class="qty">1 Unit</span
       ><span class="rating"
         ><svg width="24" height="24" class="text-primary">
-          <use xlink:href="#star-solid"></use>  //rating component
+          <use xlink:href="#star-solid"></use>
         </svg>
         {{ product.rating }}</span
       >
@@ -49,7 +49,7 @@
             </button>
           </span>
         </div>
-        <a href="#" class="nav-link">Add to Cart</a>
+        <button class="nav-link" @click="addToCart(product)">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -66,6 +66,10 @@ export default {
         }
     },
     methods: {
+        addToCart(product) {
+          this.$store.dispatch('productsStore/addToCart', product);
+        },
+
         increaseQuantity(product) {
             product.quantity++;
         },
