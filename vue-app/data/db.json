@@ -712,6 +712,20 @@
       "text": "Submit"
     }
   },
-  "users": [],
-  "cart": []
+  "contacts": [],
+  "cart": [],
+  "users": [
+    {
+      "id": "59",
+      "name": "John Wick",
+      "email": "demo@example.com",
+      "password": "qwerty"
+    },
+    {
+      "id": "91",
+      "name": "Bruce Wayne",
+      "email": "brucewayne@gmail.com",
+      "password": "batman"
+    }
+  ]
 }

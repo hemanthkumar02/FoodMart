@@ -73,7 +73,7 @@ const actions = {
     async addUserData({ commit }: any, payload: User) {
         payload.id = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER)
         try {
-            await axios.post('http://localhost:3000/users', payload).then((res) => {
+            await axios.post('http://localhost:3000/contacts', payload).then((res) => {
                 console.log(res.status)
                 return true;
             })

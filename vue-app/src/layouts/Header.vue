@@ -71,6 +71,7 @@
               <a href="#" class="rounded-circle bg-light p-2 mx-1">
                 <UserIcon />
               </a>
+              <p class="text-center" v-text="displayUser"></p>
             </li>
             <li>
               <a href="#" class="rounded-circle bg-light p-2 mx-1">
@@ -111,13 +112,15 @@
               @click="getCartItems"
             >
               <span class="fs-6 text-muted dropdown-toggle">Your Cart</span>
-              <span class="cart-total fs-5 fw-bold">${{ getTotalPrice }}.00</span>
+              <span class="cart-total fs-5 fw-bold"
+                >${{ getTotalPrice }}.00</span
+              >
             </button>
           </div>
         </div>
       </div>
     </div>
-    <SubHeader v-if="navItems.length" :items="navItems"/>
+    <SubHeader v-if="navItems.length" :items="navItems" />
   </header>
 </template>
 
@@ -131,7 +134,7 @@ import UserIcon from "../components/icons/UserIcon.vue";
 import CartIcon from "../components/icons/CartIcon.vue";
 import HeartIcon from "../components/icons/HeartIcon.vue";
 import SubHeader from "./SubHeader.vue";
-import Cart from '../components/common/Cart.vue'
+import Cart from "../components/common/Cart.vue";
 
 export default {
   name: "Header",
@@ -178,11 +181,15 @@ export default {
       return this.$store.state.navItem.navItems;
     },
     getTotalPrice() {
-        return this.$store.getters['productsStore/getTotalCartItemsPrice']
-    }
+      return this.$store.getters["productsStore/getTotalCartItemsPrice"];
+    },
+    displayUser() {
+      const user = this.$store.getters["userStore/isAuthenticated"][0];
+      if (user == null) return "";
+      return user.name;
+    },
   },
 };
-
 </script>
 
 <style scoped></style>
