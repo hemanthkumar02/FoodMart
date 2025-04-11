@@ -7,6 +7,15 @@ import store from "./store/store"; // Correct Vuex import
 
 const app = createApp(App);
 
-app.use(store); // Register Vuex
+router.beforeEach((to, from, next) => {
+    const isAuthenticated = store.getters['userStore/isAuthenticated'][0];
+    if(to.meta.requiresAuth && !isAuthenticated) {
+        next('/login');
+    } else {
+        next();
+    }
+})
+
+app.use(store); 
 app.use(router);
 app.mount("#app");

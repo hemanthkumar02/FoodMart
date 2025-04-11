@@ -70,6 +70,19 @@
                     </li>
                   </ul>
                 </li>
+                <template v-if="isAuthenticated">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link" @click="logoutUser">Logout</a>
+                  </li>
+                </template>
+                <template v-else>
+                  <li class="nav-item">
+                    <a href="/login" class="nav-link">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/sign-up" class="nav-link">Register</a>
+                  </li>
+                </template>
               </ul>
             </div>
           </div>
@@ -95,6 +108,7 @@ export default {
     };
   },
   mounted() {
+    this.checkAuth();
     this.offcanvasInstance = new Offcanvas(this.$refs.offcanvas);
     this.dropdownInstance = this.$refs.dropdownMenu.map(
       (menu) => new Dropdown(menu)
@@ -105,6 +119,12 @@ export default {
     document.removeEventListener("click", this.handleClickOutside);
   },
   methods: {
+    logoutUser() {
+      this.$store.dispatch('userStore/logout')
+    },
+    checkAuth() {
+      this.isAuthenticated;
+    },
     handleNavClick(item, event) {
       this.setActiveClass(item.text);
       item.dropdownItems.length > 0 ? this.toggleDropdown() : null;
@@ -113,7 +133,7 @@ export default {
       this.activeClass = navItem;
     },
     toggleDropdown() {
-      console.log(this.$refs.dropdownMenu)
+      console.log(this.$refs.dropdownMenu);
       if (this.showDropdown === false) {
         this.dropdownInstance.forEach((dropdown) => dropdown.show());
         this.showDropdown = true;
@@ -148,6 +168,13 @@ export default {
           }
         }
       }
+    },
+  },
+  computed: {
+    isAuthenticated() {
+      const user = this.$store.getters["userStore/isAuthenticated"][0];
+      if (user == null) return false;
+      return true;
     },
   },
 };
